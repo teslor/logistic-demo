@@ -1,0 +1,42 @@
+{
+  "user": {
+    "data": {
+      "avatar": "https://img.joinfo.ua/i/2017/06/594b62b0a5165.jpg",
+      "email": "alenab@logisticpro.online",
+      "name": "Alena Bolsheva"
+    }
+  },
+  "parcels": {
+    "data": [
+      {
+        "key": 2034,
+        "code": "LV09010-VR",
+        "from": "Kirov S1",
+        "to": "Moscow SV47",
+        "locationHistory": ["Kirov S1"],
+        "location": "Tula SK1",
+        "status": "handed",
+        "important": "high",
+        "sender": "Бойдашов В.Н."
+      },
+      {
+        "key": 2035,
+        "code": "ST07200-LN",
+        "from": "London",
+        "to": "Vologda",
+        "locationHistory": ["London", "Prague"],
+        "location": "Moscow SV47",
+        "status": "packaged",
+        "important": "low",
+        "sender": "Николаев С.В."
+      }
+    ],
+    "meta": {
+      "pagination": {
+        "total": 2350,
+        "total_pages": 231,
+        "current_page": 1
+      }
+    }
+  }
+}
